@@ -1,5 +1,7 @@
 var liveDateEl = $("#currentDay");
 
+calEvents = {};
+
 hour = moment();
 
 function Calendar(today, calEvents) {
